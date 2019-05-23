@@ -1,0 +1,498 @@
+{
+    "font" :
+    {
+        "Win32" :
+        {
+            "fontname" : "Consolas",
+            "fontsize" : 11
+        },
+        "MacOS" :
+        {
+            "fontname" : "Monaco",
+            "fontsize" : 12
+        },
+        "Linux" :
+        {
+            "fontname" : "Monospace",
+            "fontsize" : 11
+        }
+    },
+
+    "acandtip" : 
+    {
+        "droprest" : true,
+        "fillups" : "",
+        "ignorecase" : false,
+        "nodynwords" : true,
+        "shorttip" : true,
+        "startat" : 2,
+        "strategy" : 2,
+        "symbols" : true,
+        "width" : 60,
+        "maxlength" : 450,
+        "warning" : true,
+        "stopstring" : " \n\t:-+():.,;*/!\"'$%&~'#°^@?´`<>]|}{"
+    },
+
+    "baseinfo" :
+    {
+        "extension" : "lua",
+        "interpreter" : "luadeb",
+        "name" : "untitled",
+        "usecurrentextension" : true,
+        "language" : "en",
+        "autocomplete" : true,
+        "autoanalyzer" : true,
+        "ini" : false,
+        "interpreter" : false,
+        "activateoutput" : true,
+        "codepage" : false,
+        "unhidewindow" : false,
+        "projectautoopen" : true,
+        "autorecoverinactivity" : 10,
+        "outlineinactivity" : 0.250,
+        "markersinactivity" : 0.500,
+        "symbolindexinactivity" : 2,
+        "filehistorylength" : 20,
+        "projecthistorylength" : 20,
+        "commandlinehistorylength" : 10,
+        "bordersize" : 3,
+        "savebak" : false,
+        "serverport" : 8172,
+        "showmemoryusage" : false,
+        "showhiddenfiles" : false,
+        "transparency" : "nil",
+        "hidpi" : false,
+        "hotexit" : false,
+        "imagetint" : false,
+        "markertint" : true,
+        "menuicon" : true
+    },
+
+    "binarylist" :
+    [
+        "*.jpg",
+        "*.jpeg",
+        "*.png",
+        "*.gif",
+        "*.ttf",
+        "*.tga",
+        "*.dds",
+        "*.ico",
+        "*.eot",
+        "*.pdf",
+        "*.swf",
+        "*.jar",
+        "*.zip",
+        "*.gz",
+        "*.rar"
+    ],
+
+    "commandbar" : 
+    {
+        "filecache" : true,
+        "maxitems" : 30,
+        "maxlines" : 8,
+        "prefilter" : 250,
+        "showallsymbols" : true,
+        "width" : 0.35
+    },
+
+    "console" :
+    {
+        "nomousezoom" : false
+    },
+
+    "debugger" :
+    {
+        "allowediting" : false,
+        "hostname" : "nil",
+        "ignorecase" : false,
+        "init" : "nil",
+        "linetobreakpoint" : false,
+        "maxdatalength" : 256,
+        "maxdatalevel" : 3,
+        "maxdatanum" : 128,
+        "numformat" : "%.16g",
+        "port" : "nil",
+        "redirect" : "nil",
+        "refuseonconflict" : true,
+        "runonstart" : "nil",
+        "showtostring" : false,
+        "verbose" : false
+    },
+
+    "editor" :
+    {
+        "autoactivate" : false,
+        "autoreload" : true,
+        "autotabs" : false,
+        "backspaceunindent" : true,
+        "calltipdelay" : 500,
+        "caretline" : true,
+        "checkeol" : true,
+        "commentlinetoggle" : false,
+        "edge" : 80,
+        "edgemode" : 0,
+        "endatlastline" : true,
+        "extraascent" : "nil",
+        "extradescent" : "nil",
+        "fold" : true,
+        "foldcompact" : true,
+        "foldtype" : "box",
+        "foldflags" : "wxSTC_FOLDFLAG_LINEAFTER_CONTRACTED",
+        "indentguide" : true,
+        "linecopy" : true,
+        "linenumber" : true,
+        "modifiedprefix" : "✱ ",
+        "nomousezoom" : false,
+        "saveallonrun" : false,
+        "showfncall" : false,
+        "showtabicon" : false,
+        "showtabtooltip" : true,
+        "smartindent" : true,
+        "specmap" :
+        {
+            "as" : "actionscript", "asc" : "actionscript",
+            "adb" : "ada", "ads" : "ada",
+            "g" : "antlr", "g4" : "antlr",
+            "ans" : "apdl", "inp" : "apdl", "mac" : "apdl",
+            "apl" : "apl",
+            "applescript" : "applescript",
+            "asm" : "asm", "ASM" : "asm", "s" : "asm", "S" : "asm",
+            "asa" : "asp", "asp" : "asp", "hta" : "asp",
+            "au3" : "autoit", "a3x" : "autoit",
+            "awk" : "awk",
+            "bat" : "batch", "cmd" : "batch",
+            "bib" : "bibtex",
+            "boo" : "boo",
+            "cs" : "csharp",
+            "c" : "ansi_c", "cc" : "cpp", "C" : "ansi_c", "cpp" : "cpp", "cxx" : "cpp", "c++" : "cpp", "h" : "cpp", "hh" : "cpp", "hpp" : "cpp", "hxx" : "cpp", "h++" : "cpp",
+            "ck" : "chuck",
+            "cmake" : "cmake", "cmake.in" : "cmake", "ctest" : "cmake", "ctest.in" : "cmake",
+            "coffee" : "coffeescript",
+            "cr" : "crystal",
+            "css" : "css",
+            "cu" : "cuda", "cuh" : "cuda",
+            "d" : "dmd", "di" : "dmd",
+            "dart" : "dart",
+            "desktop" : "desktop",
+            "diff" : "diff", "patch" : "diff",
+            "Dockerfile" : "dockerfile",
+            "dot" : "dot",
+            "e" : "eiffel", "eif" : "eiffel",
+            "ex" : "elixir", "exs" : "elixir",
+            "erl" : "erlang", "hrl" : "erlang",
+            "fs" : "fsharp",
+            "dsp" : "faust",
+            "fish" : "fish",
+            "forth" : "forth", "frt" : "forth", "fs" : "forth",
+            "f" : "fortran", "for" : "fortran", "ftn" : "fortran", "fpp" : "fortran", "f77" : "fortran", "f90" : "fortran", "f95" : "fortran", "f03" : "fortran", "f08" : "fortran",
+            "g" : "gap", "gd" : "gap", "gi" : "gap", "gap" : "gap",
+            "po" : "gettext", "pot" : "gettext",
+            "feature" : "gherkin",
+            "glslf" : "glsl", "glslv" : "glsl",
+            "dem" : "gnuplot", "plt" : "gnuplot",
+            "go" : "go",
+            "groovy" : "groovy", "gvy" : "groovy",
+            "gtkrc" : "gtkrc",
+            "hs" : "haskell",
+            "htm" : "html", "html" : "html", "shtm" : "html", "shtml" : "html", "xhtml" : "html",
+            "icn" : "icon",
+            "idl" : "idl", "odl" : "idl",
+            "inf" : "inform", "ni" : "inform",
+            "cfg" : "ini", "cnf" : "ini", "inf" : "ini", "ini" : "ini", "reg" : "ini",
+            "io" : "io_lang",
+            "bsh" : "java", "java" : "java",
+            "js" : "javascript", "jsfl" : "javascript",
+            "json" : "json",
+            "jsp" : "jsp",
+            "bbl" : "latex", "dtx" : "latex", "ins" : "latex", "ltx" : "latex", "tex" : "latex", "sty" : "latex",
+            "ledger" : "ledger", "journal" : "ledger",
+            "less" : "less",
+            "lily" : "lilypond", "ly" : "lilypond",
+            "cl" : "lisp", "el" : "lisp", "lisp" : "lisp", "lsp" : "lisp",
+            "litcoffee" : "litcoffee",
+            "lgt" : "logtalk",
+            "lua" : "lua",
+            "GNUmakefile" : "makefile", "iface" : "makefile", "mak" : "makefile", "makefile" : "makefile", "Makefile" : "makefile",
+             "1" : "man", "2" : "man", "3" : "man", "4" : "man", "5" : "man", "6" : "man", "7" : "man", "8" : "man", "9" : "man", "1x" : "man", "2x" : "man", "3x" : "man", "4x" : "man", "5x" : "man", "6x" : "man", "7x" : "man", "8x" : "man", "9x" : "man",
+            "md" : "markdown",
+            "moon" : "moonscript",
+            "myr" : "myrddin",
+            "n" : "nemerle",
+            "nim" : "nim",
+            "nsh" : "nsis", "nsi" : "nsis", "nsis" : "nsis",
+            "m" : "objective_c", "mm" : "objective_c", "objc" : "objective_c",
+            "caml" : "caml", "ml" : "caml", "mli" : "caml", "mll" : "caml", "mly" : "caml",
+            "dpk" : "pascal", "dpr" : "pascal", "p" : "pascal", "pas" : "pascal",
+            "al" : "perl", "perl" : "perl", "pl" : "perl", "pm" : "perl", "pod" : "perl",
+            "inc" : "php", "php" : "php", "php3" : "php", "php4" : "php", "phtml" : "php",
+            "p8" : "pico",
+            "pike" : "pike", "pmod" : "pike",
+            "PKGBUILD" : "pkgbuild",
+            "eps" : "ps", "ps" : "ps",
+            "ps1" : "powershell",
+            "prolog" : "prolog",
+            "props" : "props", "properties" : "props",
+            "proto" : "protobuf",
+            "pure" : "pure",
+            "sc" : "python", "py" : "python", "pyw" : "python",
+            "R" : "rstats", "Rout" : "rstats", "Rhistory" : "rstats", "Rt" : "rstats", "Rout.save" : "rstats", "Rout.fail" : "rstats", "S" : "rstats",
+            "r" : "rebol", "reb" : "rebol",
+            "rst" : "rest",
+            "orx" : "rexx", "rex" : "rexx",
+            "erb" : "rhtml", "rhtml" : "rhtml",
+            "Rakefile" : "ruby", "rake" : "ruby", "rb" : "ruby", "rbw" : "ruby",
+            "rs" : "rust",
+            "sass" : "sass", "scss" : "sass",
+            "scala" : "scala",
+            "sch" : "scheme", "scm" : "scheme",
+            "bash" : "bash", "bashrc" : "bash", "bash_profile" : "bash", "configure" : "bash", "csh" : "bash", "sh" : "bash", "zsh" : "bash",
+            "changes" : "smalltalk", "st" : "smalltalk", "sources" : "smalltalk",
+            "sml" : "sml", "fun" : "sml", "sig" : "sml",
+            "sno" : "snobol4", "SNO" : "snobol4",
+            "ddl" : "sql", "sql" : "sql",
+            "taskpaper" : "taskpaper",
+            "tcl" : "tcl", "tk" : "tcl",
+            "texi" : "texinfo",
+            "toml" : "toml",
+            "vala" : "vala",
+            "vcf" : "vcard", "vcard" : "vcard",
+            "v" : "verilog", "ver" : "verilog",
+            "vh" : "vhdl", "vhd" : "vhdl", "vhdl" : "vhdl",
+            "asa" : "vb", "bas" : "vb", "cls" : "vb", "ctl" : "vb", "dob" : "vb", "dsm" : "vb", "dsr" : "vb", "frm" : "vb", "pag" : "vb", "vb" : "vb", "vba" : "vb", "vbs" : "vb",
+            "wsf" : "wsf",
+            "dtd" : "xml", "svg" : "xml", "xml" : "xml", "xsd" : "xml", "xsl" : "xml", "xslt" : "xml", "xul" : "xml",
+            "xtend" : "xtend",
+            "yaml" : "yaml"
+        },
+        "tabwidth" : 4,
+        "usetabs" : false,
+        "usewrap" : true,
+        "virtualspace" : "wxSTC_VS_NONE",
+        "whitespace" : false,
+        "whitespacesize" : 1,
+        "wrapflags" : "wxSTC_WRAPVISUALFLAG_NONE",
+        "wrapflagslocation" : "wxSTC_WRAPVISUALFLAGLOC_DEFAULT",
+        "wrapindentmode" : "wxSTC_WRAPINDENT_FIXED",
+        "wrapmode" : "wxSTC_WRAP_WORD",
+        "wrapstartindent" : 0
+    },
+
+    "excludelist" :
+    [
+        ".svn/",
+        ".git/",
+        ".hg/",
+        "CVS/",
+        "*.pyc",
+        "*.pyo",
+        "*.exe",
+        "*.dll",
+        "*.obj",
+        "*.o",
+        "*.a",
+        "*.lib",
+        "*.so",
+        "*.dylib",
+        "*.ncb",
+        "*.sdf",
+        "*.suo",
+        "*.pdb",
+        "*.idb",
+        ".DS_Store",
+        "*.class",
+        "*.psd",
+        "*.db",
+        "*.meta"
+    ],
+
+    "filetree" :
+    {
+        "iconmap" : "nil",
+        "mousemove" : true,
+        "showchanges" : true
+    },
+
+    "keymap" :
+    {
+        "ID_NEWFILE" : "Ctrl-N",
+        "ID_OPENFILE" : "Ctrl-O",
+        "ID_CLOSE" : "Ctrl-W",
+        "ID_SAVE" : "Ctrl-S",
+        "ID_SAVEAS" : "Alt-Ctrl-S",
+        "ID_SAVEALL" : "Shift-Ctrl-S",
+        "ID_RECENTFILES" : "",
+        "ID_EXIT" : "Ctrl-Q",
+
+        "ID_CUT" : "Ctrl-X",
+        "ID_COPY" : "Ctrl-C",
+        "ID_PASTE" : "Ctrl-V",
+        "ID_SELECTALL" : "Ctrl-A",
+        "ID_UNDO" : "Ctrl-Z",
+        "ID_REDO" : "Ctrl-Y",
+        "ID_SHOWTOOLTIP" : "F2",
+        "ID_AUTOCOMPLETE" : "Ctrl-Space",
+        "ID_AUTOCOMPLETEENABLE" : "",
+        "ID_COMMENT" : "Ctrl-/",
+
+        "ID_FOLD" : "F12",
+        "ID_FOLDLINE" : "Shift-F12",
+
+        "ID_CLEARDYNAMICWORDS" : "",
+        "ID_REINDENT" : "Ctrl-I",
+
+        "ID_BOOKMARKTOGGLE" : "Ctrl-F2",
+        "ID_BOOKMARKNEXT" : "F2",
+        "ID_BOOKMARKPREV" : "Shift-F2",
+
+        "ID_NAVIGATETOFILE" : "Ctrl-P",
+        "ID_NAVIGATETOLINE" : "Ctrl-G",
+        "ID_NAVIGATETOSYMBOL" : "Ctrl-B",
+
+
+        "ID_FINDDLG" : "Ctrl-F",
+        "ID_FINDALLDLG" : "Ctrl-Shift-F",
+
+        "ID_VIEWFULLSCREEN" : "Ctrl-Shift-A",
+
+        "ID_RUN" : "F5",
+        "ID_RUNNOW" : "Ctrl-F6",
+        "ID_COMPILE" : "Ctrl-B",
+        "ID_ANALYZE" : "Shift-F7",
+        "ID_STARTDEBUG" : "",
+        "ID_DETACHDEBUG" : "",
+        "ID_STOPDEBUG" : "",
+        "ID_STEP" : "F11",
+        "ID_STEPOVER" : "F10",
+        "ID_STEPOUT" : "Shift-F11",
+        "ID_RUNTO" : "F8",
+        "ID_TRACE" : "",
+        "ID_BREAK" : "",
+        "ID_BREAKPOINTTOGGLE" : "F9",
+        "ID_BREAKPOINTNEXT" : "Ctrl-F9",
+        "ID_BREAKPOINTPREV" : "Shift-F9",
+        "ID_CLEAROUTPUT" : "",
+        "ID_INTERPRETER" : "",
+        "ID_PROJECTDIR" : "",
+
+        "ID_ABOUT" : "F1",
+
+        "ID_ADDWATCH" : "Ins",
+        "ID_EDITWATCH" : "F2",
+        "ID_DELETEWATCH" : "Del",
+
+        "ID_QUICKADDWATCH" : "",
+        "ID_QUICKEVAL" : "",
+
+        "ID_RENAMEFILE" : "F2",
+        "ID_DELETEFILE" : "Del",
+
+        "ID_NOTEBOOKTABNEXT" : "RawCtrl-PgDn",
+        "ID_NOTEBOOKTABPREV" : "RawCtrl-PgUp"
+    },
+
+    "outline" :
+    {
+      "activateonclick" : true,
+      "jumptocurrentfunction" : true,
+      "showanonymous" : "~",
+      "showcompact" : false,
+      "showcurrentfunction" : true,
+      "showflat" : false,
+      "showmethodindicator" : false,
+      "showonefile" : false,
+      "sort" : false
+    },
+
+    "output" :
+    {
+        "lineactivate" : 
+        {
+            ".-%[string \"([^\"]+)\"%]:(%d+)%s*:" : false,
+            "%s*(.-):(%d+):(%d+):" : false,
+            "%s*(.-):(%d+)%s*:%D" : true,
+            "%((.-):(%d+)%s*:" : false
+        },
+        "nomousezoom" : false,
+        "usewrap" : true
+    },
+
+    "printcfg" :
+    {
+        "magnification" : -3,
+        "wrapmode" : "wxSTC_WRAP_WORD",
+        "colourmode" : "wxSTC_PRINT_BLACKONWHITE",
+        "header" : "%S\t%D\t%p/%P",
+        "footer" : "nil"
+    },
+
+    "search" :
+    {
+        "autocomplete" : true,
+        "contextlinesbefore" : 2,
+        "contextlinesafter" : 2,
+        "showaseditor" : false,
+        "zoom" : 0,
+        "autohide" : false,
+        "autoinselection" : true
+    },
+
+    "staticanalyzer" :
+    {
+        "infervalue" : false, 
+        "luacheck" : false
+    },
+
+    "toolbar" :
+    {
+        "icons" : 
+        [
+            "ID_NEWFILE", "ID_OPENFILE", "ID_SAVE", "ID_SAVEALL",
+            "ID_SEPARATOR",
+            "ID_FINDDLG", "ID_REPLACEDLG",
+            "ID_SEPARATOR",
+            "ID_RUN", "ID_STOPDEBUG", "ID_BREAK",
+            "ID_STEPOVER", "ID_STEP", "ID_STEPOUT",
+            "ID_SEPARATOR",
+            "ID_BREAKPOINTTOGGLE"
+        ],
+        "iconmap" :
+        {
+            "ID_NEWFILE" : ["FILE-NEW", "NewFileDesc"],
+            "ID_OPENFILE" : ["FILE-OPEN", "OpenFileDesc"],
+            "ID_SAVE" : ["FILE-SAVE", "SaveDesc"],
+            "ID_SAVEALL" : ["FILE-SAVE-ALL", "SaveAllDesc"],
+            "ID_FINDDLG" : ["FIND", "FindDesc"],
+            "ID_REPLACEDLG" : ["FIND-AND-REPLACE", "ReplaceDesc"],
+            "ID_COMPILE" : ["COMPILE", "CompileDesc"],
+            "ID_RUN" : ["DEBUG-START", "RunDesc"],
+            "ID_RUNNOW" : ["RUN-NOW", "Run as Scratchpad"],
+            "ID_STARTDEBUG" : ["DEBUG-START", "Start or continue debugging"],
+            "ID_STOPDEBUG" : ["DEBUG-STOP", "StopProcessDesc"],
+            "ID_DETACHDEBUG" : ["DEBUG-DETACH", "Stop debugging and continue running the process"],
+            "ID_BREAK" : ["DEBUG-BREAK", "BreakDesc"],
+            "ID_RUNTO" : ["DEBUG-RUN-TO", "Run to cursor"],
+            "ID_STEP" : ["DEBUG-STEP-INTO", "StepIntoDesc"],
+            "ID_STEPOVER" : ["DEBUG-STEP-OVER", "StepOverDesc"],
+            "ID_STEPOUT" : ["DEBUG-STEP-OUT", "StepOutDesc"],
+            "ID_BREAKPOINTTOGGLE" : ["DEBUG-BREAKPOINT-TOGGLE", "ToggleBreakpoint"],
+            "ID_BOOKMARKTOGGLE" : ["BOOKMARK-TOGGLE", "Toggle bookmark"],
+            "ID_FINDREPLACENEXT" : ["FIND-REPLACE-NEXT", "Replace next instance"],
+            "ID_FINDREPLACEALL" : ["FIND-AND-REPLACE", "Replace all"],
+            "ID_FINDSETDIR" : ["FIND-OPT-SETDIR", "Set search directory"],
+            "ID_FINDOPTDIRECTION" : ["FIND-OPT-DOWN", "Search direction"],
+            "ID_FINDOPTWRAPWROUND" : ["FIND-OPT-WRAP-AROUND", "Wrap around"],
+            "ID_FINDOPTSELECTION" : ["FIND-OPT-SELECTION", "Search in selection"],
+            "ID_FINDOPTWORD" : ["FIND-OPT-WORD", "Match whole word"],
+            "ID_FINDOPTCASE" : ["FIND-OPT-CASE-SENSITIVE", "Match case"],
+            "ID_FINDOPTREGEX" : ["FIND-OPT-REGEX", "Regular expression"],
+            "ID_FINDOPTCONTEXT" : ["FIND-OPT-CONTEXT", "Show context"],
+            "ID_FINDOPTSUBDIR" : ["FIND-OPT-SUBDIR", "Search in subdirectories"],
+            "ID_FINDOPTMULTIRESULTS" : ["FIND-OPT-MULTI-RESULTS", "Show multiple result windows"]
+        }
+    },
+
+    "staticresolve" : "StaticResolve.lua"
+}
