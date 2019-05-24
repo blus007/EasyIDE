@@ -8,6 +8,14 @@ EasyDebug:Print("Hello world!!!") -- print to debugger
 
 CS.UnityEngine.Debug.Log('hello world') -- print to unity output
 
+function EasyLog(message)
+	EasyDebug:Print(message)
+	CS.UnityEngine.Debug.Log(message)
+end
+
+require("Test")
+TestPrint()
+
 function GlobalInit()
 	CS.UnityEngine.Debug.Log('call global init')
 end

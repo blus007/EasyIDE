@@ -1,0 +1,19 @@
+{
+  "CodeRoot": {
+    "IsRelative": true,
+    "Path": "Assets/LuaScripts/"
+  },
+  "DebugExt": "",
+  "DebugPort": 3777,
+  "EditExt": ".lua",
+  "ExcuteFile": {
+    "IsRelative": false,
+    "Path": ""
+  },
+  "FlattenDebugPath": true,
+  "Platform": "Mac",
+  "WorkingDir": {
+    "IsRelative": false,
+    "Path": ""
+  }
+}
