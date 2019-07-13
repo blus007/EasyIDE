@@ -1,0 +1,1 @@
+/Users/leeblus/Library/Developer/Xcode/DerivedData/EasyIDE-ajfkstlpuhdtqievbwpyqoqmkkak/ArchiveIntermediates/EasyIDE/IntermediateBuildFilesPath/UninstalledProducts/macosx/EasyIDE.app
